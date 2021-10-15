@@ -256,8 +256,8 @@ ul.actions li:last-child {
 /* Main */
 #main {
   position: relative;
-  max-width: 30%;
-  min-width: 27em;
+  max-width: 400px;
+
   padding: 2em 2em 1em 2em;
   background: #EDFFEC;
   background-image: url(../images/green-paint-brush1.jpg);
