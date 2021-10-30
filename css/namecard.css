@@ -1,6 +1,6 @@
 
 body {
-  height: 100%;
+  height:auto;
   background-color: black;
   background-position: top left, center center, bottom center;
   background-attachment: fixed, fixed, fixed;
