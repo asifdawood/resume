@@ -79,7 +79,9 @@ margin-left: 2em;
   .container-nav {
     flex-direction: column;
   }
-
+.main-title{
+  flex-direction: column;
+}
 }
 
 .btn {

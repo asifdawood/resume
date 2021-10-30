@@ -1,6 +1,7 @@
 
 body {
-  height:auto;
+  min-height: 100%;
+  height:600px;
   background-color: black;
   background-position: top left, center center, bottom center;
   background-attachment: fixed, fixed, fixed;
@@ -18,14 +19,15 @@ margin: auto;
   border-width: medium;
   cursor: default;
   text-align: center;
-  height: auto;
+
+  min-height: 100%;
 }
 
 @media screen and (max-width: 480px) {
   #main {
-    min-width: 0;
     width: 100%;
     padding: 4em 2em 2.5em 2em;
+    min-height: 100%;height: 570px;
   }
 }
 
