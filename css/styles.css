@@ -82,6 +82,14 @@ margin-left: 2em;
 .main-title{
   flex-direction: column;
 }
+
+}
+
+@media (max-width: 860px){
+  .personalskills table,td,tr{
+    display: block;
+    margin:6px;
+  }
 }
 
 .btn {
@@ -159,6 +167,7 @@ top: 20px;
   border: 2px solid black;
   border-radius: 20px;
   opacity: 0.5;
+  width:80%
 }
 
 .link_image {
