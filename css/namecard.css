@@ -1,4 +1,6 @@
-
+html{
+  height:100%;
+}
 body {
   min-height: 100%;
 
@@ -19,18 +21,15 @@ margin: auto;
   border-width: medium;
   cursor: default;
   text-align: center;
-
-  min-height: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 400px) {
   #main {
-    width: 100%;
+    wodth:100%;
     padding: 4em 2em 2.5em 2em;
-    min-height: 100%;
-    min-width:350px;
   }
- 
+
 }
 
 h1 {
@@ -66,7 +65,7 @@ i{
 }
 i:hover{
   color: #32a852;
-    border: solid 2px  #32a852;
+    border: solid 2px  green;
 }
 .qrcode-image{
   padding: 15px;
